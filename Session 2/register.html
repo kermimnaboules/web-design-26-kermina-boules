@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <form autocomplete="off" method="post">
+        <h2>Registeration form</h2>
+        <div>
+        <label>First name:</label>
+        <input name="firstName" placeholder="Enter your first name" 
+        maxlength="10"
+        minlength="2" >
+        </div>
+        <div>
+          <label>Email:</label>
+        <input name="email" type="email" placeholder="Enter your email">
+        </div>
+        
+        <label>Age:</label>
+        <input name="userAge" type="number" min="12" max="20" placeholder="Enter your agr">
+        <label>Shipping Area:</label>
+        <input name="shipping" type="text" value="Alex" readonly>
+
+        <label>Shipping Area:</label>
+        <input name="shipping" type="text" value="Alex" disabled >
+        <div>
+            <label for="userPassword">Password:</label>
+            <input type="password" id="userPassword" name= "userPassword" autofocus placeholder="Enter Your Password">
+        </div>  
+        <div>
+            <label> Gender</label>
+            <input type="radio" name="Gender" value="male"> <label>male</label> 
+            <input type="radio" name="Gender" value="female"><label>female</label>
+        </div>
+        <label>Courses:</label>
+        <input type="checkbox" name="Courses"><span>html</span>
+        <input type="checkbox" name="Courses"><span>css</span>
+        <input type="checkbox" name="Courses"><span>js</span>
+        <input type="checkbox" name="Courses"><span>frontend</span>
+
+        <input type="file" multiple name="image">
+        <div>
+            <label>Tracks:</label>
+            <select name="Tracks" >
+                <option disabled selected>Choose Your Track</option>
+                <option>frontend</option>
+                <option>backend</option>
+                <option>Network</option>
+            </select>
+        </div>
+        <input type="text" pattern="[A-Za-z]{2, 5}" title="please enter letters only" name="testInput">
+         <input type="color" name="color">
+         <input type="date" name="date">
+         <input type="month" name="month">
+         <input type="datetime-local"> 
+         <div>
+            <textarea name="" rows="5" cols="30" placeholder="enter"></textarea>
+        
+         </div>
+         <div>
+            <input type="range" name="range" value="100" min="100" max="200">
+         </div>
+<!--fieldset ,legend, -->
+
+        <button>Submit</button>
+    </form>
+</html>
