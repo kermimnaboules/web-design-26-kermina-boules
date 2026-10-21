@@ -1,0 +1,41 @@
+@media (max-width: 700px){
+    
+    .icon{
+        display: none;
+    }
+    .right{
+        flex: 1;
+    }
+    .icon2{
+        display: none;
+    }
+    .overlay22{
+        column-gap: 44px;
+        row-gap: 10px;
+    
+    }
+}
+@media (max-width: 500px){
+    nav{
+        display: none;
+    }
+    .card2{
+        width: 100%;
+        text-align: center;
+        margin: 3%;
+    }
+    .display{
+        flex-wrap: wrap;
+    }
+    .width{
+        width: 100%;
+
+    }
+    .section3{
+        width: 100%;
+        display: block;
+    }
+    .points{
+        flex-wrap: wrap;
+    }
+}

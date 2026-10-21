@@ -1,0 +1,372 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Libre Caslon Condensed", serif;
+    box-sizing: border-box;
+}
+.padding-top-bottom{
+    padding: 2% 0%;
+}
+.container{    
+    width: 80%;
+    margin: auto;
+}
+.bg-image{
+    background-size:cover;
+    background-image: url("../images/a5fcbde5258262f42e8d47435151dd5e6c7fc8ba.png");
+
+
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.w-100{
+    width: 100%;
+    border-radius:10px ;
+}
+.position-relative{
+    position: relative;
+}
+.nav{
+    color: white;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    
+    
+}
+.nav ul{
+    display: flex;
+    column-gap: 5%;
+    color: white;
+    list-style: none;
+  
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+.btn button{
+    background-color:white;
+    border-radius: 20px;
+    border: 1px solid #285E67;
+    /* width:100%; */
+    padding: 10px 18px;
+    color: black;
+}
+.btn button:hover {
+    background-color: transparent;
+}
+.textt{
+    margin: 10%;
+    width: 40%;
+    color: white;
+}
+.textt h1{
+    margin: 2% 0%;
+    font-size: xxx-large;
+}
+.textt p{
+    margin: 3% 0%;
+}
+.textt button{
+    background-color:transparent;
+    border-radius: 20px;
+    border: 1px solid #285E67;
+    padding: 10px 18px;
+    color: white;
+}
+.textt button:hover {
+    background-color: #101828;
+}
+.hidden{
+    visibility: hidden;
+}
+.display{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.shop h2{
+    margin: 0% 1%;
+}
+.inputbox{
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #e7e7e7;
+    padding: 10px 15px;
+    gap: 5px;
+    margin: 0% 1%;
+}
+.inputbox input{
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+    background-color: transparent;
+}
+.inputbox i{
+    color: gray;
+}
+.product{
+    border: 1px solid  rgb(235, 235, 235);;
+    width: 90%;
+    margin: auto;
+}
+.product h2{
+    margin: 0% 3%;
+
+}
+.category{
+    padding: 5%;
+    gap: 15px;
+    display: flex;
+    margin: auto;
+    width:40%;
+}
+.category button{
+    background-color:  #101828;
+    padding: 10px 18px;
+    border: #101828 1px ;
+    color: white;
+    border-radius:5px ;
+    box-shadow: 0px 0px 2px 1px #233250;
+}
+.category button:hover{
+    background-color:  #334872;
+}
+.category h4{
+    color: gray;
+    padding: 10px 0;
+}
+.none{
+    display: none;
+}
+.wd{
+    display: flex;
+    justify-content: space-between;
+    width: 31%;
+    margin: 0% 1%;
+}
+hr{
+   border:1px solid rgb(235, 235, 235);
+}
+.services{
+    width: 75%;
+    display: block;
+}
+.w-40{
+    width: 49%;
+    border-radius: 10px;
+}
+.displayg{
+    display: flex;
+    column-gap: 5px;
+    border: 1px solid  rgb(235, 235, 235);;
+    margin: auto;
+    width: 90%;
+    padding: 3%;
+
+}
+.dog{
+    width: 43%;
+    border-radius:10px ;
+}
+.ovely{
+    position: absolute;
+    top: 45%;
+    display: block;
+    color: white;
+    text-align: center;
+    width: 100%;
+  
+}
+.ovely-hover{
+    position: absolute;
+    display: none;
+    top: 0%;
+    padding: 14% ;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: small;
+    border-radius: 10px;
+    background-color: #101828b2;
+}
+.ovely-hover button{
+    background-color:  #101828;
+    padding: 10px 18px;
+    border: #101828 1px ;
+    color: rgb(199, 198, 198);
+    border-radius:5px ;
+    margin: 1%;
+    box-shadow: 0px 0px 2px 1px #233250;
+}
+.cl:hover .ovely h2{
+    display: none;
+
+}
+.cl:hover .ovely-hover{
+    display: block;  
+}
+
+.w-50{
+    width: 48%;
+
+}
+.view a{
+    display: flex;
+    flex-direction: row-reverse;
+    color: black;
+    text-decoration: none;
+    padding: 2%;
+
+}
+.overlay{
+    position: absolute;
+    top: 45%;
+    display: block;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.overlay22{
+    position: absolute;
+    top: 75%;
+    display: block;
+    color: white;
+    text-align: center;
+    right: 65%;
+}
+.cat{
+    display: flex;
+    column-gap: 10px;
+    border: 1px solid  rgb(235, 235, 235);
+    padding: 4% 2%;
+    width: 90%;
+    margin: auto;
+}
+.w-80{
+    width: 85%;
+    margin-left: 10%;
+}
+.team{
+    width: 90%;
+    margin: auto;
+    border: 1px solid  rgb(235, 235, 235);
+    padding: 2%;
+    color: gray;
+}
+.w-20{
+    width: 24%;
+}
+.blog button{
+    background-color:  #101828;
+    padding: 10px 18px;
+    border: #101828 1px ;
+    color: white;
+    border-radius:5px ;
+    box-shadow: 0px 0px 2px 1px #233250;
+}
+.blog h3 {
+    color: rgb(51, 51, 51);
+}
+.blog h1{
+    color: rgb(51, 51, 51);
+}
+.blog{
+    width: 90%;
+    margin: auto;
+    padding: 2%;
+    color: gray;
+}
+
+.blog button:hover{
+    background-color:  #334872;
+}
+
+.bg-navy{
+    background-color: #101828;
+    color: #D0D5DD;
+}
+.contact h2{
+    color: white;
+}
+.contact hr{
+  
+   border:1px solid rgb(83, 83, 83);
+}
+.form{
+    padding: 5% 4%;
+    color: rgb(158, 157, 157);
+    background-color: white;
+    border-radius: 10px;
+    margin: 4%;
+}
+.form input{
+   border: 1px solid #D0D5DD;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+    margin: 4% 0%;
+    background-color: transparent;
+}
+.form a{
+    color:rgb(158, 157, 157) ;
+    
+}
+.form button{
+    background-color:  #101828;
+    padding: 10px 180px;
+    border: #101828 1px ;
+    color: rgb(199, 198, 198);
+    border-radius:5px ;
+    margin: 1%;
+    box-shadow: 0px 0px 2px 1px #233250;
+}
+.form input[type="checkbox"] {
+    width: 6%;
+}
+
+.contactus{
+    color: rgb(230, 230, 230);
+    margin: 6% 0%;
+    padding: 3% 0%;
+}
+.contactus i{
+    font-size: larger;
+    margin-bottom: 5%;
+}
+.displayf{
+    display: flex;
+    justify-content: space-around;
+}
+.newsletter{
+    color:rgb(230, 230, 230) ;
+}
+.button2 button{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding:2%;
+    margin: 1%;
+
+}
+.button2 input{
+    background-color: #e7e7e7;
+    padding: 3%;
+    border-radius: 5px;
+   
+}
+.pad{
+    padding: 0% 3%;
+}
+.pad a{
+    color:#D0D5DD;
+    text-decoration:  none;
+}
