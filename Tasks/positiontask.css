@@ -1,0 +1,84 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Libre Caslon Condensed", serif;
+    box-sizing: border-box;
+}
+.padding-top-bottom{
+    padding: 2% 0%;
+}
+.container{    
+    width: 80%;
+    margin: auto;
+}
+
+.overlay{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.466);
+
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.w-100{
+    width: 100%;
+
+}
+.first{
+    margin: 8% 3%;
+    padding: 3%;
+    color: white;
+    width: 48%;
+
+}
+.first h1{
+    color: white;
+    font-size: 100px;
+    margin-bottom:3% ;
+}
+.first hr{
+    width: 15%;
+    margin: 4% 0%;
+}
+.first button{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 2% 3%;
+    color: white;
+}
+.form{
+    width: 30%;
+    margin: 8% 6%;
+    /* padding: 2%; */
+    background-color: white;
+    text-align: center;
+}
+.form input{
+    width: 80%;
+    border: 3px lightgray;
+    border-bottom: 2px solid lightgray;
+    margin: 4% 0%;
+    padding: 4% 10%;
+}
+.form button{
+    width: 100%;
+    background-color: rgb(255, 139, 7);
+    border: 1px solid  rgb(255, 139, 7);
+    padding: 5% 3%;
+    margin-top: 6%;
+    color: rgb(245, 243, 243) ;
+}
+.form h2 {
+    
+    background-color: rgb(245, 243, 243);
+    padding: 2%;
+}
+.orange{
+    color: rgb(255, 139, 7);
+}

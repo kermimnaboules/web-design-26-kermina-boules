@@ -214,6 +214,10 @@ hr{
 .cl:hover .ovely-hover{
     display: block;  
 }
+.cl:hover .ovely-hover button:hover{
+    background-color: #233250;
+
+}
 
 .w-50{
     width: 48%;

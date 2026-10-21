@@ -1,0 +1,93 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Playfair Display", serif;
+    box-sizing: border-box;
+}
+.padding-top-bottom{
+    padding: 2% 0%;
+}
+.container{    
+    width: 80%;
+    margin: auto;
+}
+.display{
+    display: flex;
+}
+.position-relative{
+    position: relative;
+}
+.iconb{
+    background-color: steelblue;
+    width: 24%;
+    height: 31%;
+    border-radius: 50%;
+    position: absolute;
+    top: -16%;
+    left: 39%;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    font-size: 29px;
+    color : white;
+}
+.icon{
+    background-color: red;
+    width: 24%;
+    height: 31%;
+    border-radius: 50%;
+    position: absolute;
+    top: -16%;
+    left: 39%;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    font-size: 29px;
+    color : white;
+}
+.icong{
+    background-color: rgb(3, 110, 47);
+    width: 24%;
+    height: 31%;
+    border-radius: 50%;
+    position: absolute;
+    top: -16%;
+    left: 39%;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    font-size: 29px;
+    color : white;
+}
+.text-center{
+    text-align: center;
+}
+.card{
+    width: 28%;
+    padding: 4% 2%;
+    text-align: center;
+    margin: 3%;
+    border: 2px solid rgb(235, 235, 235);
+    border-radius: 10px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    color: slateblue;
+    justify-content: space-evenly;
+}
+.icons i{
+    background-color: rgb(215, 255, 242);
+    border-radius: 50%;
+    height: 35px;
+    width: 20%;
+    padding: 5%;
+}
+.card h3{
+    color: steelblue;
+}
+h2{
+    color: rgb(2, 2, 73);
+}
