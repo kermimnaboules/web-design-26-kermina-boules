@@ -1,0 +1,12 @@
+
+.customhover :hover{
+    background-color: #198754;
+    color: white;
+    transition: 1s
+}
+
+.accomdation :hover{
+    background-color: #198754;
+    color: white;
+    transition: 1s
+}
